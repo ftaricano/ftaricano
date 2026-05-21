@@ -22,10 +22,9 @@ Production-grade MCP servers for operator stacks:
 - **[`mcp-gmail-calendar`](https://github.com/ftaricano/mcp-gmail-calendar)** — Gmail + Calendar, 35 tools, OAuth multi-account
 - **[`mcp-hub`](https://github.com/ftaricano/mcp-hub)** — MCP aggregation gateway behind one tool surface
 
-Plus CLIs and bridges:
+Plus a Python bridge:
 
-- **[`wacli`](https://github.com/ftaricano/wacli)** — standalone WhatsApp CLI on whatsmeow + SQLite FTS5 search
-- **[`telegram-claude-code-bridge`](https://github.com/ftaricano/telegram-claude-code-bridge)** — Telegram ↔ Claude Code with topic-scoped sessions and durable delivery
+- **[`telegram-claude-code-bridge`](https://github.com/ftaricano/telegram-claude-code-bridge)** — Telegram ↔ Claude Code with topic-scoped sessions, durable delivery, and secure local automation
 
 ## Architecture principles I ship by
 
