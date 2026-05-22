@@ -6,7 +6,7 @@ Building agentic AI for SMB ops. Shipping production multi-agent systems on Clau
 
 ## What I do
 
-I run a non-tech Brazilian SMB where production AI agents handle daily back-office: ETL across dozens of insurance carriers, financial pipelines, mailbox triage, operational reporting. The system runs on **Claude Code** (architecture, frontend), **Codex** (implementation), **Hermes** (productivity, research), and **OpenClaw** (runtime, cron, delivery) — orchestrated by ~40 written ADRs and OAuth-only auth.
+I run a non-tech Brazilian SMB where production AI agents handle daily back-office: ETL across dozens of insurance carriers, financial pipelines, mailbox triage, operational reporting. The system runs on **Claude Code** (architecture, frontend), **Codex** (implementation ), and **Hermes** (productivity, research) — orchestrated by ~40 written ADRs.
 
 In parallel, I ship and maintain open-source Model Context Protocol (MCP) servers as the infrastructure that makes the above work.
 
@@ -18,13 +18,8 @@ Production-grade MCP servers for operator stacks:
 - **[`mcp-outlook`](https://github.com/ftaricano/mcp-outlook)** ⭐1 — Outlook / Exchange via MS Graph, 40 tools, 178 passing tests
 - **[`mcp-whatsapp`](https://github.com/ftaricano/mcp-whatsapp)** ⭐2 — WhatsApp via Baileys (QR pairing, rate limited, circuit breaker, pt-BR templates)
 - **[`mcp-server-trello`](https://github.com/ftaricano/mcp-server-trello)** — Trello, 23 tools, 93 unit tests
-- **[`mcp-notion`](https://github.com/ftaricano/mcp-notion)** — Notion page workflows, 10 tools
 - **[`mcp-gmail-calendar`](https://github.com/ftaricano/mcp-gmail-calendar)** — Gmail + Calendar, 35 tools, OAuth multi-account
 - **[`mcp-hub`](https://github.com/ftaricano/mcp-hub)** — MCP aggregation gateway behind one tool surface
-
-Plus a Python bridge:
-
-- **[`telegram-claude-code-bridge`](https://github.com/ftaricano/telegram-claude-code-bridge)** — Telegram ↔ Claude Code with topic-scoped sessions, durable delivery, and secure local automation
 
 ## Architecture principles I ship by
 
