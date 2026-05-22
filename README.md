@@ -8,7 +8,7 @@ Building agentic AI for SMB ops. Shipping production multi-agent systems on Clau
 
 I run a non-tech Brazilian SMB where production AI agents handle daily back-office: ETL across dozens of insurance carriers, financial pipelines, mailbox triage, operational reporting. The system runs on **Claude Code** (architecture, frontend), **Codex** (implementation), **Hermes** (productivity, research), and **OpenClaw** (runtime, cron, delivery) — orchestrated by ~40 written ADRs and OAuth-only auth.
 
-In parallel, I author open-source Model Context Protocol (MCP) servers as the infrastructure that makes the above work.
+In parallel, I ship and maintain open-source Model Context Protocol (MCP) servers as the infrastructure that makes the above work.
 
 ## Open-source MCP servers
 
